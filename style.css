@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(img/fundo2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    position: relative; 
+    border-radius: 14px;
+    border: solid, #cf4284,  1px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: red; 
+    text-align: center;
+    border-bottom: 1px solid rgba(238, 108, 205, 0.2);
+     }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: red; 
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgba(238, 108, 205, 0.2);
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    color: #cf4284; 
+}
+p{
+    font-size: 15px;
+    margin: 10px 0 5px;
+    color: #cf4284;
+}
+
+input {
+    width:80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #E64B46; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f6352f;
+}
+
+#resultados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff; 
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.anos{
+    font-size: 17px;
+}
+.messes{
+    font-size: 17px;
+}

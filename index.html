@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Namoro</title>
+    <link href="https://www.dafont.com/pt/mf-love-song.charmap?back=theme" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Namoro</h1>
+        <form class="formulario">
+            <label for="suaIdade">Sua idade:</label>
+            <li>
+            <label for="" class="anos">Anos:</label>
+            <input type="number" id="p1_idade_anos"  value="0" required>
+            <label for="" class="messes">Meses:</label>
+            <input type="number" id="p1_idade_meses"  value="0" required>
+            </li>
+            
+            <label for="idadeParceiro">Idade do seu Pretendente:</label>
+            <li>
+            <label for="" class="anos">Anos:</label>
+            <input type="number" id="p2_idade_anos"  value="0" required>
+            <label for="" class="messes">Meses:</label>
+            <input type="number" id="p2_idade_meses"  value="0" required>
+            </li>
+            <br>
+            <label for="idadeTerceiro">Trisal (opcional):</label>
+            <li>
+            <label for="" class="anos">Anos:</label>
+            <input type="number" id="p3_idade_anos"  value="0" >
+            <label for="" class="messes">Meses:</label>
+            <input type="number" id="p3_idade_meses"  value="0" >
+            </li>
+            <br>
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+        <br>
+        <div>
+        <h2>Resultados</h2>
+        <p id="resultado">idade minima para namora</p>
+        <p id="resultado_2">  </p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>  
